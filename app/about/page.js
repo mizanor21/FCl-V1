@@ -3,45 +3,49 @@ import React from "react";
 import img1 from "@/public/assets/banner/constraction.jpeg";
 import { TbTargetArrow } from "react-icons/tb";
 import { IoCompassOutline } from "react-icons/io5";
-import { SlTarget } from "react-icons/sl";
-import { RxValue } from "react-icons/rx";
 import Link from "next/link";
 
 // Certificate data
 const certificates = [
   {
     title: "Certificate of Incorporation",
-    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png"
+    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png",
   },
+
   {
     title: "E-Trade License",
-    logoURL: "https://i.postimg.cc/YqQdc4pV/dhaSouth.png"
+    logoURL: "https://i.postimg.cc/YqQdc4pV/dhaSouth.png",
   },
-  
+
   {
     title: "Taxpayer's Identification Number (TIN) Certificate",
-    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png"
+    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png",
   },
+
   {
     title: "Value Added Tax Registration Certificate",
-    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png"
+    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png",
   },
+
   {
     title: "Export Registration Certificate (ERC)",
-    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png"
+    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png",
   },
+
   {
     title: "Import Registration Certificate (IRC)",
-    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png"
+    logoURL: "https://i.postimg.cc/wxCwb5dL/goved.png",
   },
+
   {
     title: "Clearance Certificate from DGFI",
-    logoURL: "https://i.postimg.cc/RZRGFjJL/army.png"
+    logoURL: "https://i.postimg.cc/RZRGFjJL/army.png",
   },
+
   {
     title: "Dhaka Chamber of Commerce & Industry",
-    logoURL: "https://i.postimg.cc/XY3QnVqv/DCCI.png"
-  }
+    logoURL: "https://i.postimg.cc/XY3QnVqv/DCCI.png",
+  },
 ];
 
 const Page = () => {
@@ -50,7 +54,7 @@ const Page = () => {
       <section className="relative bg-gray-800 text-white">
         <div className="relative">
           <img
-            src='https://cdn.pixabay.com/photo/2024/05/14/05/38/construction-8760339_640.jpg'
+            src="https://cdn.pixabay.com/photo/2024/05/14/05/38/construction-8760339_640.jpg"
             alt="Banner"
             className="object-cover w-full h-64 bg-black opacity-30"
           />
@@ -232,12 +236,25 @@ const Page = () => {
 
                 <p>
                   Our vision is to be a leading player in the construction
-                  industry, known for our commitment to excellence and
-                  customer satisfaction.
+                  industry, known for our commitment to excellence and customer
+                  satisfaction.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* section 04  */}
+      <div className="bg-black py-10 ">
+        <div className="container mx-auto max-w-[1400px] mt-10 mb-20">
+          <h2 class="text-3xl text-center font-bold leading-tight text-white sm:text-4xl lg:text-4xl mb-4">
+            Organogram
+          </h2>
+          <img
+            src="https://i.ibb.co/L85nJpy/ORGANOGRAM.png"
+            className="w-full"
+          ></img>
         </div>
       </div>
 
@@ -261,27 +278,14 @@ const Page = () => {
                   alt={cert.title}
                   className="w-20 h-20 mb-4 object-cover"
                 />
-                <h3 className="text-lg text-center font-semibold mb-2">{cert.title}</h3>
-               
+                <h3 className="text-lg text-center font-semibold mb-2">
+                  {cert.title}
+                </h3>
               </div>
             ))}
           </div>
         </div>
       </section>
-
-       {/* section 04  */}
-       <div className="bg-black py-10">
-
-       <div className="container mx-auto max-w-[1400px] mt-10 mb-20">
-          <h2 class="text-3xl text-center font-bold leading-tight text-white sm:text-4xl lg:text-4xl mb-4">
-            Organogram
-          </h2>
-          <img
-            src="https://i.ibb.co/L85nJpy/ORGANOGRAM.png"
-            className="w-full"
-          ></img>
-        </div>
-</div>
     </div>
   );
 };

@@ -38,29 +38,47 @@ const Nav = () => {
         <span className="cursor-pointer flex items-center">
           Associate With <GoChevronDown className="ml-1 font-bold text-2xl" />
         </span>
-        <ul className="absolute bg-opacity-90 lg:left-[-600px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block  p-2">
+        <ul className="absolute  lg:left-[-600px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block  p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <div className="card bg-base-100 w-96 shadow-xl">
+            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
               <figure>
                 <img
-                  className="w-full h-52"
-                  src="https://www.goinnovior.com/wp-content/uploads/2023/05/Artificial-Intelligence.jpeg"
-                  alt="Shoes"
+                  className="w-52 h-52"
+                  src="https://i.postimg.cc/Z57dqvzV/Logo-Man-Enterpirse.jpg"
+                  alt="M/S MAN ENTERPRISE"
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Company 01</h2>
+                <h2 className="text-sm text-center">M/S MAN ENTERPRISE</h2>
               </div>
             </div>
-            <div className="card bg-base-100 w-96 shadow-xl">
+
+            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
               <figure>
                 <img
-                  src="https://www.goinnovior.com/wp-content/uploads/2024/04/Enterprise-email.png"
+                  className="w-52 h-52 "
+                  src="https://i.postimg.cc/nLftB0xz/Screenshot-from-2024-08-12-12-16-43.png"
+                  alt="Shoes"
+                />
+              </figure>
+
+              <div className="card-body">
+                <h2 className="text-sm text-center">
+                  MR DRILLING & CONSTRUCTION LTD.
+                </h2>
+              </div>
+            </div>
+
+            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
+              <figure>
+                <img
+                  className="w-52 h-52 "
+                  src="https://i.postimg.cc/DZq018RV/Screenshot-from-2024-08-12-12-09-21.png"
                   alt="Shoes"
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">Company 02</h2>
+                <h2 className="text-sm text-center">M/S NACALA ENTERPRISE</h2>
               </div>
             </div>
           </div>
@@ -77,7 +95,7 @@ const Nav = () => {
               <Link href="/list-equipments">
                 <figure>
                   <img
-                    className="w-full h-52"
+                    className="w-full h-52 rounded-xl"
                     src="https://t4.ftcdn.net/jpg/02/49/04/93/360_F_249049329_BpYUPt5TGST3qTTfOJVpTakAdCLFzcg1.jpg"
                     alt="Shoes"
                   />
@@ -92,7 +110,7 @@ const Nav = () => {
               <Link href="/photo-equipments">
                 <figure>
                   <img
-                    className="w-full h-52"
+                    className="w-full h-52 rounded-xl"
                     src="https://nmccat.com/wp-content/uploads/2020/09/Cat-Backhoe-1.jpg"
                     alt="Shoes"
                   />

@@ -15,40 +15,34 @@ const Project = () => {
         "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "7.5 km Flexible Road’s Pavement",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/tC810NXt/road.jpg",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "Jolshiri Drainage & Swerege Network",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/J02szbj8/D-S.jpg",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "Construction of Non-Process Building (NPB)",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/90M42xR1/NPB.jpg",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "Raw Water Flow Measurement Chamber",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/9FD4NnjQ/constraction1.jpg",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "UN Vehicle Repair Shed",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/26TqPp6V/UN.jpg",
     },
     {
-      name: "PSO Banglow, Dhaka Cantonment.",
+      name: "bhasan char Ashrayan-3, Storm Drain project at Bhasanchar , Noakhali",
       category: "Construction",
-      backgroundImage:
-        "https://fclweb.netlify.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FPOS.36e2fcb0.png&w=1920&q=75",
+      backgroundImage: "https://i.postimg.cc/gjCG74vx/IMG20200408164436.jpg",
     },
     {
       name: "PSO Banglow, Dhaka Cantonment.",
@@ -178,7 +172,7 @@ const Project = () => {
                     <div className="absolute inset-0 bg-black opacity-30"></div>
                     <div className="absolute bottom-0 p-5 border-b-4 border-green-700 w-full hover:bg-green-900 hover:bg-opacity-50 duration-1000">
                       <h2 className="text-2xl  text-white font-bold">
-                        PSO Banglow, Dhaka Cantonment.
+                        {project.name}
                       </h2>
                       <div className="flex gap-2 mt-2">
                         <p className="border border-white text-white  rounded-full px-5 py-2">
