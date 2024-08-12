@@ -60,6 +60,88 @@ const SubCompany = () => {
             </div>
           </div>
         </section>
+
+        <section className="py-10 sm:py-16 lg:py-24">
+          <div className="max-w-[1400px] px-4 mx-auto sm:px-6 lg:px-8">
+            <div className="grid items-center grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-20">
+              <div className="">
+                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl mb-4">
+                  Farees Construction Limited (FCL)
+                </h2>
+                <div className="text-justify">
+                  <p>
+                    <strong>FAREES CONSTRUCTION LIMITED (FCL)</strong> is an
+                    independent engineering construction company with an
+                    objective to provide complete and international standard
+                    technical approach in the construction industry of
+                    Bangladesh. Man Enterprise ventured into the construction
+                    area as early as 2012 and Farees Construction Limited (FCL)
+                    was formed in 2017 to join the venture. The company was
+                    created out of a vision of Brigadier General AKM Mahfuzul
+                    Haque (Retd.), the CEO & MD of Farees Construction Limited,
+                    to serve the nation with top-quality professionals.
+                  </p>
+                  <br />
+                  <p>
+                    <strong>FCL</strong> consists of a professionals, experts in
+                    the development sectors, and experienced management. The
+                    organization have launched country-wide nation-building
+                    activities by completing several multi-storied buildings,
+                    hydraulic structures, deep tube wells, water purification
+                    plants, irrigation, flood control projects, etc.{" "}
+                    <strong>FCL</strong> is also experienced in constructing
+                    piling (situ/bored/caisson), pile cap & retaining structures
+                    etc.
+                  </p>
+                  <br />
+                  <p>
+                    Over the short period after its establishment,{" "}
+                    <strong>FCL</strong> gathered experience in different
+                    fields, working with local and foreign experts and
+                    management professionals in both government & foreign funded
+                    projects and delivered mentionable construction services.
+                    Combining experience with quality, <strong>FCL</strong>{" "}
+                    emerged as one of the top construction firms in Bangladesh.
+                    With workmanship and refinement, it earned a reputation in
+                    several sectors involving engineering and technological
+                    inputs.
+                  </p>
+                </div>
+              </div>
+
+              <div className="relative pl-20 pr-6 sm:pl-6 md:px-0">
+                <div className="relative w-full max-w-lg mt-4 mb-10 ml-auto">
+                  <img
+                    className="ml-auto"
+                    src="https://cdn.rareblocks.xyz/collection/celebration/images/features/1/person.jpg"
+                    alt=""
+                  />
+
+                  <img
+                    className="absolute -top-4 -left-12"
+                    src="https://cdn.rareblocks.xyz/collection/celebration/images/features/1/wavey-lines.svg"
+                    alt=""
+                  />
+
+                  <div className="absolute -bottom-10 -left-16">
+                    <div className="bg-yellow-300">
+                      <div className="px-8 py-10">
+                        <span className="block text-4xl font-bold text-black lg:text-5xl">
+                          8+
+                        </span>
+                        <span className="block mt-2 text-base leading-tight text-black">
+                          Years Of
+                          <br />
+                          Experience
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </h1>
     </div>
   );
