@@ -40,18 +40,20 @@ const Nav = () => {
         </span>
         <ul className="absolute  lg:left-[-600px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block  p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
-              <figure>
-                <img
-                  className="w-52 h-52"
-                  src="https://i.postimg.cc/Z57dqvzV/Logo-Man-Enterpirse.jpg"
-                  alt="M/S MAN ENTERPRISE"
-                />
-              </figure>
-              <div className="card-body">
-                <h2 className="text-sm text-center">M/S MAN ENTERPRISE</h2>
+            <Link href="/sub-company">
+              <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
+                <figure>
+                  <img
+                    className="w-52 h-52"
+                    src="https://i.postimg.cc/Z57dqvzV/Logo-Man-Enterpirse.jpg"
+                    alt="M/S MAN ENTERPRISE"
+                  />
+                </figure>
+                <div className="card-body">
+                  <h2 className="text-sm text-center">M/S MAN ENTERPRISE</h2>
+                </div>
               </div>
-            </div>
+            </Link>
 
             <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
               <figure>
