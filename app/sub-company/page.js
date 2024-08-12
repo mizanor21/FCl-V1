@@ -37,7 +37,7 @@ const SubCompany = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
+                  <Link href="/sub-company">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -51,7 +51,7 @@ const SubCompany = () => {
                         d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
                       ></path>
                     </svg>
-                    Explore Us
+                    Associate With
                   </Link>
                 </li>
               </ul>
@@ -91,18 +91,6 @@ const SubCompany = () => {
                   <strong>FCL</strong> is also experienced in constructing
                   piling (situ/bored/caisson), pile cap & retaining structures
                   etc.
-                </p>
-                <br />
-                <p>
-                  Over the short period after its establishment,{" "}
-                  <strong>FCL</strong> gathered experience in different fields,
-                  working with local and foreign experts and management
-                  professionals in both government & foreign funded projects and
-                  delivered mentionable construction services. Combining
-                  experience with quality, <strong>FCL</strong> emerged as one
-                  of the top construction firms in Bangladesh. With workmanship
-                  and refinement, it earned a reputation in several sectors
-                  involving engineering and technological inputs.
                 </p>
               </div>
             </div>
