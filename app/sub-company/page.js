@@ -12,7 +12,10 @@ const SubCompany = () => {
             className="object-cover w-full h-64 bg-black opacity-30"
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-4xl font-extrabold"> Explore Us</h1>
+            <h1 className="text-white text-4xl font-extrabold">
+              {" "}
+              M/S MAN ENTERPRISE{" "}
+            </h1>
             <div className="text-sm text-white breadcrumbs">
               <ul>
                 <li>
@@ -62,20 +65,20 @@ const SubCompany = () => {
           <div className="grid items-center grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-x-20">
             <div className="">
               <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl mb-4">
-                Farees Construction Limited (FCL)
+                M/S MAN ENTERPRISE
               </h2>
               <div className="text-justify">
                 <p>
-                  <strong>FAREES CONSTRUCTION LIMITED (FCL)</strong> is an
-                  independent engineering construction company with an objective
-                  to provide complete and international standard technical
-                  approach in the construction industry of Bangladesh. Man
-                  Enterprise ventured into the construction area as early as
-                  2012 and Farees Construction Limited (FCL) was formed in 2017
-                  to join the venture. The company was created out of a vision
-                  of Brigadier General AKM Mahfuzul Haque (Retd.), the CEO & MD
-                  of Farees Construction Limited, to serve the nation with
-                  top-quality professionals.
+                  <strong>M/S MAN ENTERPRISE</strong> is an independent
+                  engineering construction company with an objective to provide
+                  complete and international standard technical approach in the
+                  construction industry of Bangladesh. Man Enterprise ventured
+                  into the construction area as early as 2012 and Farees
+                  Construction Limited (FCL) was formed in 2017 to join the
+                  venture. The company was created out of a vision of Brigadier
+                  General AKM Mahfuzul Haque (Retd.), the CEO & MD of Farees
+                  Construction Limited, to serve the nation with top-quality
+                  professionals.
                 </p>
                 <br />
                 <p>
@@ -119,12 +122,12 @@ const SubCompany = () => {
                 />
 
                 <div className="absolute -bottom-10 -left-16">
-                  <div className="bg-yellow-300">
+                  <div className="bg-green-800">
                     <div className="px-8 py-10">
-                      <span className="block text-4xl font-bold text-black lg:text-5xl">
+                      <span className="block text-4xl font-bold text-white lg:text-5xl">
                         8+
                       </span>
-                      <span className="block mt-2 text-base leading-tight text-black">
+                      <span className="block mt-2 text-base leading-tight text-white">
                         Years Of
                         <br />
                         Experience
@@ -140,12 +143,14 @@ const SubCompany = () => {
 
       <section className="bg-white py-24 px-4 lg:px-16">
         <div className="container mx-auto px-[12px] md:px-24 xl:px-12 max-w-[1300px] nanum2">
-          <h1 className="text-center text-5xl pb-12">Industries we serve</h1>
-          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-28 lg:gap-y-16">
+          <h1 className="text-center text-5xl pb-12 font-bold">
+            Services We Provide
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-4 gap-y-28 lg:gap-y-16 mt-10">
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/Automotive.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -168,7 +173,7 @@ const SubCompany = () => {
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/Toys-and-Baby-Products.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -191,7 +196,7 @@ const SubCompany = () => {
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/MEDICAL.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -214,7 +219,7 @@ const SubCompany = () => {
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/Glass.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -237,7 +242,7 @@ const SubCompany = () => {
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/Jewelry-coins-and-medallions.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -260,7 +265,7 @@ const SubCompany = () => {
             <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
               <a href="#" className="block">
                 <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
+                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-green-800 rounded-xl justify-items-center align-middle">
                     <img
                       src="https://epicpadprinting.com/public/img/indus/Electric.png"
                       className="w-36 h-36 mt-6 m-auto"
@@ -275,75 +280,6 @@ const SubCompany = () => {
                 <div className="p-6 z-10 w-full">
                   <p className="mb-2 inline-block text-tg text-center w-full text-xl font-sans font-semibold leading-snug tracking-normal antialiased">
                     Electric
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <a href="#" className="block">
-                <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
-                    <img
-                      src="https://epicpadprinting.com/public/img/indus/Packaging-FMCG.png"
-                      className="w-36 h-36 mt-6 m-auto"
-                      alt="Packaging / FMCG"
-                      title="Packaging / FMCG"
-                      loading="lazy"
-                      width="200"
-                      height="200"
-                    />
-                  </div>
-                </div>
-                <div className="p-6 z-10 w-full">
-                  <p className="mb-2 inline-block text-tg text-center w-full text-xl font-sans font-semibold leading-snug tracking-normal antialiased">
-                    Packaging / FMCG
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <a href="#" className="block">
-                <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
-                    <img
-                      src="https://epicpadprinting.com/public/img/indus/Household.png"
-                      className="w-36 h-36 mt-6 m-auto"
-                      alt="Household"
-                      title="Household"
-                      loading="lazy"
-                      width="200"
-                      height="200"
-                    />
-                  </div>
-                </div>
-                <div className="p-6 z-10 w-full">
-                  <p className="mb-2 inline-block text-tg text-center w-full text-xl font-sans font-semibold leading-snug tracking-normal antialiased">
-                    Household
-                  </p>
-                </div>
-              </a>
-            </div>
-
-            <div className="relative group h-48 flex flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-              <a href="#" className="block">
-                <div className="h-28">
-                  <div className="absolute -top-20 lg:top-[-10%] left-[5%] z-40 group-hover:top-[-40%] group-hover:opacity-[0.9] duration-300 w-[90%] h-48 bg-red-500 rounded-xl justify-items-center align-middle">
-                    <img
-                      src="https://epicpadprinting.com/public/img/indus/Stationary.png"
-                      className="w-36 h-36 mt-6 m-auto"
-                      alt="Stationary"
-                      title="Stationary"
-                      loading="lazy"
-                      width="200"
-                      height="200"
-                    />
-                  </div>
-                </div>
-                <div className="p-6 z-10 w-full">
-                  <p className="mb-2 inline-block text-tg text-center w-full text-xl font-sans font-semibold leading-snug tracking-normal antialiased">
-                    Stationary
                   </p>
                 </div>
               </a>
