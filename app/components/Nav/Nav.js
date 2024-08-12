@@ -40,7 +40,7 @@ const Nav = () => {
         </span>
         <ul className="absolute  lg:left-[-600px] lg:w-[1530px] mt-10 hidden bg-white text-black shadow-md rounded-md group-hover:block  p-2">
           <div className="flex justify-center items-center gap-6 py-10">
-            <Link href="/sub-company">
+            <Link href="/">
               <div className="card bg-base-100 w-96 shadow-xl overflow-hidden">
                 <figure>
                   <img
