@@ -59,7 +59,7 @@ const Page = () => {
             className="object-cover w-full h-64 bg-black opacity-30"
           />
           <div className="absolute inset-0 flex flex-col justify-center items-center">
-            <h1 className="text-white text-4xl font-extrabold"> Explore Us</h1>
+            <h1 className="text-white text-4xl font-extrabold"> About Us</h1>
             <div className="text-sm text-white breadcrumbs">
               <ul>
                 <li>
@@ -95,7 +95,7 @@ const Page = () => {
                         d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
                       ></path>
                     </svg>
-                    Explore Us
+                    About Us
                   </Link>
                 </li>
               </ul>
